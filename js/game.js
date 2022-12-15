@@ -30,6 +30,9 @@ const checkEndGame = () => {
     if (disabledCards.length === 20){
         clearInterval(this.loop);
         alert(`Meus "Parabens", ${spanPlayer.innerHTML} voce ganhou o jogo! \n Com um recorde de tempo de: ${timer.innerHTML}`)
+    }else if (timer > 100){
+        clearInterval(this.loop);
+        alert(`${spanPlayer.innerHTML} tempo esgotado, voce perdeu o jogo!`)
     }
 }
 
