@@ -76,6 +76,8 @@
  .back{
     background-image: url('../images/back.jpg');
     backface-visibility: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
  }
 
  .reveal-card{
@@ -85,4 +87,15 @@
  .disabled-card{
    filter: saturate(0);
    opacity: 0.5;
+ }
+
+ .sair-button{
+  background-color: #cf1507;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  max-width: 150px;
+  padding: 15px;
+  width: 100%;
  }

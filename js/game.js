@@ -1,6 +1,19 @@
 const grid = document.querySelector('.grid');
 const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
+const url ='D:\ UNISAVE\ 2 Ano\ II Semestre\ Laboratorio\ jogo\ index.html'
+const btn = document.querySelector('#btn')
+
+
+function openInNewTab(url) {
+    const window = window.open(url, '-blank');
+    window.focus()
+}
+
+btn.addEventListener('click',() => {
+    openInNewTab(url)
+})
+
 
 const characters =[
     'fq',
