@@ -16,16 +16,16 @@ btn.addEventListener('click',() => {
 
 
 const characters =[
-    'casa2',
-    'casa4',
-    'choc',
-    'casa3',
-    'imagro',
-    'proj',
-    'download',
-    'imagesx',
-    'imar',
-    'client'
+    'um',
+    'dois',
+    'tres',
+    'quatro',
+    'cinco',
+    'seis',
+    'sete',
+    'oito',
+    'nove',
+    'dez'
 ];
 
 const createElement=(tag, className)=>{
